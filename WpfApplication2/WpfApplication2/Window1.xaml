@@ -1,0 +1,29 @@
+﻿<Window x:Class="WpfApplication2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Window1" Height="446.788" Width="823.907">
+    <Grid RenderTransformOrigin="0.504,0.499">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="232"/>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="777"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="mask" Content="Маска подсети" Grid.Column="1"  Margin="10,50,10,326" Click="mask_Click"/>
+        <Button x:Name="address" Content="Адрес сети" Grid.Column="1"  Margin="10,95,10,281" Click="address_Click"/>
+        <Button x:Name="firstip" Content="First IP" Grid.Column="1"  Margin="10,140,10,236" Click="firstip_Click"/>
+        <Button x:Name="twoin" Content="Перевод чисел в двоичную с.с." Grid.Column="3"  Margin="10,50,263,326" Click="twoin_Click"/>
+        <Button x:Name="twofrom" Content="Перевод чисел из двоичной с.с." Grid.Column="3"  Margin="10,95,263,281" Click="twofrom_Click"/>
+        <Button x:Name="twodiv" Content="Дроби в двоичной с.с." Grid.Column="3"  Margin="10,275,263,101" Click="twodiv_Click"/>
+        <Button x:Name="twomult" Content="Умножение чисел в двоичной с.с." Grid.Column="3"  Margin="10,230,263,146" Click="twomult_Click"/>
+        <Button x:Name="twominus" Content="Вычитание чисел в двоичной с.с." Grid.Column="3"  Margin="10,185,263,191" Click="twominus_Click"/>
+        <Button x:Name="twoplus" Content="Сложение чисел в двоичной с.с." Grid.Column="3"  Margin="10,140,263,236" Click="twoplus_Click"/>
+        <Button x:Name="all" Content="Итог" Grid.Column="1" HorizontalAlignment="Left" Margin="10,185,0,0" VerticalAlignment="Top" Width="212" Height="40" Click="all_Click"/>
+        <Button x:Name="twoall" Content="Двоичная система счисления (контрольная)" Grid.Column="3"  Margin="10,320,263,11" Click="twoall_Click"/>
+        <Button x:Name="button" Content="Сети" Grid.Column="1" HorizontalAlignment="Left" Margin="10,230,0,0" VerticalAlignment="Top" Width="212" Height="175" Click="button_Click"/>
+    </Grid>
+</Window>

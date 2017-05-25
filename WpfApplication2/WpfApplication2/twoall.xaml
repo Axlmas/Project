@@ -1,0 +1,70 @@
+﻿<Window x:Class="WpfApplication2.twoall"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Двоичная система счисления" Height="530.194" Width="717.646" Loaded="go">
+    <Grid>
+        <Label x:Name="task1" Content="1. Перевести числа из десятичной системы счисления в двоичную:" HorizontalAlignment="Left" Margin="23,20,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task2" Content="2. Перевести числа из двоичной системы счисления в десятичную:" HorizontalAlignment="Left" Margin="23,107,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task3" Content="3. Выполнить сложение чисел в двоичной системе счисления:" HorizontalAlignment="Left" Margin="23,193,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task4" Content="4. Выполнить вычитание чисел в двоичной системе счисления:" HorizontalAlignment="Left" Margin="23,297,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task5" Content="5. Выполнить умножение чисел в двоичной системе счисления:" HorizontalAlignment="Left" Margin="23,391,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task11" Content="00000000" HorizontalAlignment="Left" Margin="23,46,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task12" Content="00000000" HorizontalAlignment="Left" Margin="23,72,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <TextBox x:Name="tb11" HorizontalAlignment="Left" Height="23" Margin="103,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <TextBox x:Name="tb12" HorizontalAlignment="Left" Height="23" Margin="103,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <Label x:Name="an11" Content="00000000" HorizontalAlignment="Left" Margin="218,46,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="an12" Content="00000000" HorizontalAlignment="Left" Margin="218,72,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="task21" Content="00000000" HorizontalAlignment="Left" Margin="23,137,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task22" Content="00000000" HorizontalAlignment="Left" Margin="23,163,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <TextBox x:Name="tb21" HorizontalAlignment="Left" Height="23" Margin="103,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <TextBox x:Name="tb22" HorizontalAlignment="Left" Height="23" Margin="103,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <Label x:Name="an21" Content="00000000" HorizontalAlignment="Left" Margin="218,137,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="an22" Content="00000000" HorizontalAlignment="Left" Margin="218,163,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="task31a" Content="00000000" HorizontalAlignment="Left" Margin="23,230,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task32a" Content="00000000" HorizontalAlignment="Left" Margin="23,257,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <TextBox x:Name="tb31" HorizontalAlignment="Left" Height="23" Margin="199,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <TextBox x:Name="tb32" HorizontalAlignment="Left" Height="23" Margin="199,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <Label x:Name="an31" Content="00000000" HorizontalAlignment="Left" Margin="297,231,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="an32" Content="00000000" HorizontalAlignment="Left" Margin="297,257,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="task31b" Content="00000000" HorizontalAlignment="Left" Margin="108,230,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task32b" Content="00000000" HorizontalAlignment="Left" Margin="108,256,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6" Content="+" HorizontalAlignment="Left" Margin="90,230,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy" Content="+" HorizontalAlignment="Left" Margin="90,256,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy1" Content="=" HorizontalAlignment="Left" Margin="175,231,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy2" Content="=" HorizontalAlignment="Left" Margin="175,257,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task41a" Content="00000000" HorizontalAlignment="Left" Margin="23,330,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task42a" Content="00000000" HorizontalAlignment="Left" Margin="23,357,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <TextBox x:Name="tb41" HorizontalAlignment="Left" Height="23" Margin="199,335,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <TextBox x:Name="tb42" HorizontalAlignment="Left" Height="23" Margin="199,361,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <Label x:Name="an41" Content="00000000" HorizontalAlignment="Left" Margin="297,331,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="an42" Content="00000000" HorizontalAlignment="Left" Margin="297,357,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="task41b" Content="00000000" HorizontalAlignment="Left" Margin="108,330,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task42b" Content="00000000" HorizontalAlignment="Left" Margin="108,356,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy3" Content="-" HorizontalAlignment="Left" Margin="90,330,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy4" Content="-" HorizontalAlignment="Left" Margin="90,356,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy5" Content="=" HorizontalAlignment="Left" Margin="175,331,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy6" Content="=" HorizontalAlignment="Left" Margin="175,357,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task51a" Content="00000000" HorizontalAlignment="Left" Margin="23,425,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task52a" Content="00000000" HorizontalAlignment="Left" Margin="23,452,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <TextBox x:Name="tb51" HorizontalAlignment="Left" Height="23" Margin="167,430,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <TextBox x:Name="tb52" HorizontalAlignment="Left" Height="23" Margin="167,456,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="93" FontSize="13.333"/>
+        <Label x:Name="an51" Content="00000000" HorizontalAlignment="Left" Margin="265,426,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="an52" Content="00000000" HorizontalAlignment="Left" Margin="265,452,0,0" VerticalAlignment="Top" FontSize="13.333" Visibility="Hidden"/>
+        <Label x:Name="task51b" Content="000" HorizontalAlignment="Left" Margin="109,425,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="task52b" Content="000" HorizontalAlignment="Left" Margin="109,452,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy7" Content="*" HorizontalAlignment="Left" Margin="90,429,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy8" Content="*" HorizontalAlignment="Left" Margin="90,455,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy9" Content="=" HorizontalAlignment="Left" Margin="143,426,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Label x:Name="label6_Copy10" Content="=" HorizontalAlignment="Left" Margin="143,452,0,0" VerticalAlignment="Top" FontSize="13.333"/>
+        <Button x:Name="button2" Content="Готово" HorizontalAlignment="Left" Margin="489,335,0,0" VerticalAlignment="Top" Width="211" Height="160" FontSize="64" Click="button2_Click"/>
+        <Label x:Name="ocenka2" Content="5" HorizontalAlignment="Left" Margin="533,79,0,0" VerticalAlignment="Top" FontSize="96" FontWeight="Bold" Visibility="Hidden"/>
+        <Label x:Name="ocenka3" Content="Label" HorizontalAlignment="Left" Margin="482,222,0,0" VerticalAlignment="Top" FontSize="32" FontWeight="Bold" Visibility="Hidden"/>
+        <Label x:Name="ocenka1" Content="Ваша оценка" HorizontalAlignment="Left" Margin="458,21,0,0" VerticalAlignment="Top" FontSize="32" FontWeight="Bold" Visibility="Hidden"/>
+        <Button x:Name="button1" Content="Выход" HorizontalAlignment="Left" Margin="489,335,0,0" VerticalAlignment="Top" Width="211" Height="160" FontSize="64" Visibility="Hidden" Click="button1_Click"/>
+
+    </Grid>
+</Window>

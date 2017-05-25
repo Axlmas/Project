@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApplication2.twominus"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApplication2"
+        mc:Ignorable="d"
+        Title="Вычитание чисел в двоичной системе счисления" Height="424.085" Width="543.49" Loaded="go">
+    <Grid>
+        <Label x:Name="TaskLabel" Content="Выполнить вычитание в двоичной системе счисления:" HorizontalAlignment="Left" Margin="36,10,0,0" VerticalAlignment="Top" FontSize="18.667" Visibility="Visible"/>
+        <Label x:Name="label1" Content="Ответ" HorizontalAlignment="Left" Margin="69,173,0,0" VerticalAlignment="Top" FontSize="21.333" Visibility="Visible"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="47" Margin="193,171,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="297" FontSize="29.333" Visibility="Visible" SpellCheck.IsEnabled="True"/>
+        <Button x:Name="button1" Content="Готово" HorizontalAlignment="Left" Margin="21,274,0,0" VerticalAlignment="Top" Width="114" FontSize="21.333" Height="36"  Visibility="Visible" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Выход" HorizontalAlignment="Left" Margin="393,274,0,0" VerticalAlignment="Top" Width="114" FontSize="21.333" Height="36"  Visibility="Visible" Click="button2_Click"/>
+        <Label x:Name="Label1" Content="Задание №" HorizontalAlignment="Left" Margin="21,333,0,0" VerticalAlignment="Top" FontSize="18.667" Visibility="Visible"/>
+        <Label x:Name="Label2" Content="Правильных ответов:" HorizontalAlignment="Left" Margin="305,315,0,0" VerticalAlignment="Top" FontSize="18.667" Visibility="Visible"/>
+        <Label x:Name="Label3" Content="Ошибок совершено:" HorizontalAlignment="Left" Margin="305,348,0,0" VerticalAlignment="Top" FontSize="18.667" Visibility="Visible"/>
+        <Label x:Name="right" Content="0" HorizontalAlignment="Left" Margin="502,315,0,0" VerticalAlignment="Top" FontSize="18.667" Visibility="Visible"/>
+        <Label x:Name="wrong" Content="0" HorizontalAlignment="Left" Margin="502,350,0,0" VerticalAlignment="Top" FontSize="18.667" />
+        <Label x:Name="task" Content="1" HorizontalAlignment="Left" Margin="133,333,0,0" VerticalAlignment="Top" FontSize="18.667" />
+        <Label x:Name="number1" Content="00000000" HorizontalAlignment="Left" Margin="239,54,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="number2" Content="00000000" HorizontalAlignment="Left" Margin="239,96,0,0" VerticalAlignment="Top" FontSize="24"/>
+        <Label x:Name="label" Content="-" HorizontalAlignment="Left" Margin="204,67,0,0" VerticalAlignment="Top" FontSize="29.333"/>
+
+    </Grid>
+</Window>
