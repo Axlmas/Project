@@ -49,12 +49,12 @@ namespace WpfApplication2
         {
             Random random = new Random();
             zadanie10 = random.Next(111, 1195);
-            number.Content = Convert.ToString(zadanie10);
+            number.Content = Convert.ToString(DecToBin(zadanie10));
         }
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
-            if (textBox.Text == Convert.ToString(DecToBin(zadanie10)))
+            if (textBox.Text == Convert.ToString(zadanie10))
             {
                 MessageBox.Show("Верно!");
                 textBox.Text = "";
@@ -62,7 +62,7 @@ namespace WpfApplication2
                 right.Content = Convert.ToString(Convert.ToInt32(right.Content) + 1);
                 Random random = new Random();
                 zadanie10 = random.Next(111, 1195);
-                number.Content = Convert.ToString(zadanie10);
+                number.Content = Convert.ToString(DecToBin(zadanie10));
 
             }
             else
