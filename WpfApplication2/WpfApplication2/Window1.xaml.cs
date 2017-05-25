@@ -75,21 +75,21 @@ namespace WpfApplication2
 
         private void twominus_Click(object sender, RoutedEventArgs e)
         {
-            twofrom opn = new twofrom();
+            twominus opn = new twominus();
             opn.Show();
             this.Close();
         }
 
         private void twomult_Click(object sender, RoutedEventArgs e)
         {
-            twofrom opn = new twofrom();
+            twomult opn = new twomult();
             opn.Show();
             this.Close();
         }
 
         private void twodiv_Click(object sender, RoutedEventArgs e)
         {
-            twofrom opn = new twofrom();
+            twodiv opn = new twodiv();
             opn.Show();
             this.Close();
         }
